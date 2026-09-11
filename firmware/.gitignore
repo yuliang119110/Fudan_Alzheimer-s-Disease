@@ -1,0 +1,14 @@
+# PlatformIO 构建产物 —— 体积大, 且可以由源码重建
+.pio/
+.vscode/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 测试过程中产生的数据文件: 录音 / 日志 / 采集
+# 这些是验证链路时的副产品, 不是源码, 别进仓库
+*.wav
+*.log
+capture.txt
+console.log
