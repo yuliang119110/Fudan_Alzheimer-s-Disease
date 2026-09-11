@@ -1,0 +1,21 @@
+# ---- 密钥：绝不入库 ----
+.env
+*.key
+secrets*
+
+# ---- MinerU 原始产物 ----
+# 含出版商原始 PDF 与全文，体积大且可重新生成；不入库
+parsed/
+docs/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ---- 编辑器 / 系统 ----
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
